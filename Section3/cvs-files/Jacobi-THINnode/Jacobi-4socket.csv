@@ -1,0 +1,24 @@
+mpirun --mca bt1 ^openib –np 4 --map-by socket --oversubscribe ./Jacobi.x
+1200 0 t
+           1 -Dim Input         1200           0 T
+1200 0 t
+           2 -Dim Input         1200           0 T
+1200 0 t
+           3 -Dim Input         1200           0 T
+#   0 Process grid   2   2   1
+           0           3           2
+           1           3           2
+           2           3           2
+           3           3           2
+#   0  Allocated 2 arrays with a total of  6969.75      Mbytes
+# StartResidual    0.00000000000
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.83332171700        3.83326510300        3.76026273800        3.76973036900       Residual    12019999.9905      MLUPs    450.783974728"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82984575400        3.82984416500        3.75933120600        3.76934004200       Residual    1999999.99999      MLUPs    451.193105674"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82985984000        3.82985779900        3.76027372400        3.76935636600       Residual    425925.925763      MLUPs    451.191446212"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82887835800        3.82887733800        3.75926371600        3.76841232700       Residual    126543.209842      MLUPs    451.307103134"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.83011538500        3.83011392000        3.76041927400        3.76957298100       Residual    51826.1316899      MLUPs    451.161342754"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82946692500        3.82946596600        3.75953256500        3.76898978800       Residual    26702.1351013      MLUPs    451.237739832"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82995439400        3.82995299800        3.76036353700        3.76952529100       Residual    15893.9988852      MLUPs    451.180307188"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82803947700        3.82803895200        3.75850223100        3.76753707400       Residual    10378.2429891      MLUPs    451.406003094"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82994005300        3.82993903600        3.76069856400        3.76943973400       Residual    7222.26330259      MLUPs    451.181996608"
+"  4  Maxtime , Mintime + JacobiMi , JacobiMa    3.82791633800        3.82791570600        3.75885227600        3.76741114900       Residual    5266.18987024      MLUPs    451.420524228"
